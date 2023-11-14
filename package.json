@@ -1,0 +1,50 @@
+{
+  "name": "med_manager",
+  "version": "0.0.1",
+  "description": "Backend of assistance plus med manager",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Naval Kishor",
+    "email": "navalkishor2005@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "tags": [
+    "nodejs-orm",
+    "nodejs-typescript",
+    "nodejs-typescript-orm",
+    "nodejs-typeorm-sample",
+    "nodejs-typeorm-example",
+    "nodejs-typeorm-express-example"
+  ],
+  "devDependencies": {
+    "@types/body-parser": "^1.19.4",
+    "@types/express": "^4.11.1",
+    "@types/node": "^9.6.61"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^6.4.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "emailjs": "^4.0.3",
+    "emailjs-imap-client": "^3.1.0",
+    "esendex": "^0.1.8",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mysql": "^2.15.0",
+    "nodemailer": "^6.6.0",
+    "nodemon": "^3.0.1",
+    "typeorm": "^0.2.0",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "start": "tsc && nodemon dist/app.js"
+  }
+}
